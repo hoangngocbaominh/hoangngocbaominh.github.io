@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cosmetology</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="contentHeader">
+                <a href="index.html" class="logo"><img src="./images/logo2.png" alt=""></a>
+                <div class="search">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="login">
+                    <img src="./images/avarta.jpg" alt="">
+                    <p>Sign in</p>
+                </div>
+                <div class="shopping_cart" data-toggle="modal" data-target="#modelId">
+                    <i class="fas fa-shopping-cart">Cart</i>
+                    <div id="my-badge" class="badge badge-primary">0</div>
+                </div>
+            </div>
+            <div class="menuHeader">
+                <ul>
+                    <li>
+                        <i class="fas fa-bars"></i>
+                        <div class="listMenu">
+                            <div class="listMenu1">
+                                <ul>
+                                    <li><a href="">Information</a></li>
+                                    <li><a href="">About us</a></li>
+                                    <li><a href="">Support</a></li>
+                                    <li><a href="">Contact</a></li>
+                                    <li><a href="">Sale Page</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">Trang điểm</a>
+                        <div class="listMenu">
+                            <div class="listMenu1">
+                                <a href="">Trang điểm mặt</a>
+                                <ul>
+                                    <li>Cushion</li>
+                                    <li>Kem nền</li>
+                                    <li>Kem che khuyết điểm</li>
+                                    <li>Primer - Kem lót</li>
+                                    <li>Phấn phủ - Phấn nền</li>
+                                </ul>
+                            </div>
+                            <div class="listMenu1">
+                                <a href="">Trang điểm mắt</a>
+                                <ul>
+                                    <li>Mascara</li>
+                                    <li>Eyeliner - Kẻ mắt</li>
+                                    <li>Eye Primer - Kem lót mắt</li>
+                                    <li>Kẻ mày</li>
+                                    <li>Phản mắt</li>
+                                </ul>
+                            </div>
+                            <div class="listMenu1">
+                                <a href="">Trang điểm môi</a>
+                                <ul>
+                                    <li>Son high-end</li>
+                                    <li>Son môi</li>
+                                    <li>Son dưỡng</li>
+                                    <li>Lót môi - Khóa môi</li>
+                                    <li>Che khuyết điểm môi</li>
+                                    <li>Lips Mask - Mặt nạ môi</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">Chăm sóc da</a>
+                        <div class="listMenu">
+                            <div class="listMenu1">
+                                <a href="">Dưỡng da</a>
+                                <ul>
+                                    <li>Dưỡng da mặt</li>
+                                    <li>Toner - Nước hoa hồng</li>
+                                    <li>Kem chống nắng</li>
+                                    <li>Lotion - Sữa dưỡng</li>
+                                    <li>Kem dưỡng da</li>
+                                    <li>Dưỡng vùng mắt</li>
+                                </ul>
+                            </div>
+                            <div class="listMenu1">
+                                <a href="">Làm sạch da</a>
+                                <ul>
+                                    <li>Sữa rữa mặt</li>
+                                    <li>Tẩy trang</li>
+                                    <li>Tẩy tế bào chết</li>
+                                </ul>
+                            </div>
+                            <div class="listMenu1">
+                                <a href="">Mask - Mặt nạ</a>
+                                <ul>
+                                    <li>Mặt nạ lột mụn</li>
+                                    <li>Mask Đất Sét</li>
+                                    <li>Mask Giấy</li>
+                                    <li>Mask Đắp Rửa</li>
+                                    <li>Mash Ngủ</li>
+                                    <li>Mask Thiên Nhiên</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">Chăm sóc toàn thân</a>
+                        <div class="listMenu">
+                            <div class="listMenu1">
+                                <ul>
+                                    <li>Sữa tắm</li>
+                                    <li>Kem dưỡng toàn thân - Body Cream</li>
+                                    <li>Dương thể - Body lotion</li>
+                                </ul>
+                            </div>
+                            <div class="listMenu1">
+                                <ul>
+                                    <li>Dưỡng da tay</li>
+                                    <li>Tẩy tế bào chết</li>
+                                    <li>Tẩy lông</li>
+                                </ul>
+                            </div>
+                            <div class="listMenu1">
+                                <ul>
+                                    <li>Khử mùi</li>
+                                    <li>Giảm sẹo - Giảm thâm - Giảm nám</li>
+                                    <li>Chăm sóc răng miệng</li>
+                                </ul>
+                            </div>
+                    </li>
+                    <li>
+                        <a href="">Chăm sóc tóc</a>
+                        <div class="listMenu">
+                            <div class="listMenu1">
+                                <ul>
+                                    <li>Dầu gội</li>
+                                    <li>Dầu xã</li>
+                                </ul>
+                            </div>
+                            <div class="listMenu1">
+                                <ul>
+                                    <li>Dầu gội khô</li>
+                                    <li>Set dầu gội</li>
+                                </ul>
+                            </div>
+                            <div class="listMenu1">
+                                <ul>
+                                    <li>Serum dưỡng tóc</li>
+                                    <li>Kem ủ tóc</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">Nước hoa</a>
+                        <div class="listMenu">
+                            <div class="listMenu1">
+
+                                <ul>
+                                    <li>Nước hoa nam</li>
+                                    <li>Nước hoa nữ</li>
+                                    <li>Xịt thơm body</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">Phụ kiện</a>
+                        <div class="listMenu">
+                            <div class="listMenu1">
+                                <ul>
+                                    <li>Phụ kiện làm đẹp</li>
+                                    <li>Dụng cụ trang điểm</li>
+                                    <li>Sơn móng - Rửa móng</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">Thương hiệu</a>
+                        <div class="listMenu">
+                            <div class="listMenu1">
+                                <ul>
+                                    <li>3CE</li>
+                                    <li>3W Clinic</li>
+                                    <li>Benton</li>
+                                    <li>L.A Girl</li>
+                                    <li>Cocoon</li>
+                                    <li>DHC</li>
+                                </ul>
+                            </div>
+                            <div class="listMenu1">
+                                <ul>
+                                    <li>Etude house</li>
+                                    <li>Evoluderm</li>
+                                    <li>Benton</li>
+                                    <li>L.A Girl</li>
+                                    <li>Cocoon</li>
+                                    <li>DHC</li>
+                                </ul>
+                            </div>
+                            <div class="listMenu1">
+                                <ul>
+                                    <li>MAC</li>
+                                    <li>3W Clinic</li>
+                                    <li>Ohui</li>
+                                    <li>NYX</li>
+                                    <li>Cocoon</li>
+                                    <li>DHC</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- MAIN -->
+        <div class="body_QC">
+            <div class="main">
+                <div class="slideMain">
+                    <div class="slide">
+                        <ul>
+                            <li class="activeSlide"><img src="./images/1.jpg" alt=""></li>
+                            <li><img src="./images/2.jpg" alt=""></li>
+                            <li><img src="./images/3.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                    <!-- <div class="nextSlide"><i class="fas fa-chevron-right"></i></div>
+                    <div class="backSlide"><i class="fas fa-chevron-left"></i></div> -->
+                    <div class="changeSlide">
+                        <ul>
+                            <li class="active"></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="wrapperSlideProduct">
+                        <h2>discount product</h2>
+                        <div class="slideProduct">
+                            <div class="s_productItem">
+                                <div class="s_productItemInfo">
+                                    <div class="s_productPhoto">
+                                        <a href=""><img class="product-img" src="./images/p4.jpg" alt=""></a>
+                                        <div class="heartFavorite"><i class="far fa-heart"></i></div>
+                                        <button class="btn btn-info my-view-btn">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="btn btn-success add-to-card">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="s_productDetaillInfo">
+                                        <div class="title">
+                                            <a href="">Tinh Dầu Dưỡng Tóc</a>
+                                        </div>
+                                        <div class="productItemPrice">
+                                            <div class="productItemPriceNew">5,000đ</div>
+                                            <div class="productItemPriceOld">10,000đ</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="s_productItem">
+                                <div class="s_productItemInfo">
+                                    <div class="s_productPhoto">
+                                        <a href=""><img class="product-img"  src="./images/p2.jpg" alt=""></a>
+                                        <div class="heartFavorite"><i class="far fa-heart"></i></div>
+                                        <button class="btn btn-info my-view-btn">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="btn btn-success add-to-card">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="s_productDetaillInfo">
+                                        <div class="title">
+                                            <a href="">Tinh Dầu Dưỡng Tóc</a>
+                                        </div>
+                                        <div class="productItemPrice">
+                                            <div class="productItemPriceNew">59,000đ</div>
+                                            <div class="productItemPriceOld">100,000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="s_productItem">
+                                <div class="s_productItemInfo">
+                                    <div class="s_productPhoto">
+                                        <a href=""><img class="product-img"  src="./images/p3.jpg" alt=""></a>
+                                        <div class="heartFavorite"><i class="far fa-heart"></i></div>
+                                        <button class="btn btn-info my-view-btn">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="btn btn-success add-to-card">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="s_productDetaillInfo">
+                                        <div class="title">
+                                            <a href="">Nước Dưỡng Tóc Tinh Dầu Bưởi Cocoon</a>
+                                        </div>
+                                        <div class="productItemPrice">
+                                            <div class="productItemPriceNew">150,000đ</div>
+                                            <div class="productItemPriceOld">165,000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="s_productItem">
+                                <div class="s_productItemInfo">
+                                    <div class="s_productPhoto">
+                                        <a href=""><img class="product-img" src="./images/p1.jpg" alt=""></a>
+                                        <div class="heartFavorite"><i class="far fa-heart"></i></div>
+                                        <button class="btn btn-info my-view-btn">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="btn btn-success add-to-card">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="s_productDetaillInfo">
+                                        <div class="title">
+                                            <a href="">Nước Dưỡng Tóc Tinh Dầu Bưởi Cocoon </a>
+                                        </div>
+                                        <div class="productItemPrice">
+                                            <div class="productItemPriceNew">5,000đ</div>
+                                            <div class="productItemPriceOld">10,000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="s_productItem">
+                                <div class="s_productItemInfo">
+                                    <div class="s_productPhoto">
+                                        <a href=""><img class="product-img" src="./images/p4.jpg" alt=""></a>
+                                        <div class="heartFavorite"><i class="far fa-heart"></i></div>
+                                        <button class="btn btn-info my-view-btn">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="btn btn-success add-to-card">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="s_productDetaillInfo">
+                                        <div class="title">
+                                            <a href="">Nước Dưỡng Tóc Tinh Dầu Bưởi</a>
+                                        </div>
+                                        <div class="productItemPrice">
+                                            <div class="productItemPriceNew">50,000đ</div>
+                                            <div class="productItemPriceOld">10,000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="s_productItem">
+                                <div class="s_productItemInfo">
+                                    <div class="s_productPhoto">
+                                        <a href=""><img  class="product-img" src="./images/p6.jpg" alt=""></a>
+                                        <div class="heartFavorite"><i class="far fa-heart"></i></div>
+                                        <button class="btn btn-info my-view-btn">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="btn btn-success add-to-card">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="s_productDetaillInfo">
+                                        <div class="title">
+                                            <a href="">Nước Dưỡng Tóc Tinh Dầu Bưởi Cocoon</a>
+                                        </div>
+                                        <div class="productItemPrice">
+                                            <div class="productItemPriceNew">100,000đ</div>
+                                            <div class="productItemPriceOld">120,000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="s_productItem">
+                                <div class="s_productItemInfo">
+                                    <div class="s_productPhoto">
+                                        <a href=""><img class="product-img" src="./images/p3.jpg" alt=""></a>
+                                        <div class="heartFavorite"><i class="far fa-heart"></i></div>
+                                        <button class="btn btn-info my-view-btn">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="btn btn-success add-to-card">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="s_productDetaillInfo">
+                                        <div class="title">
+                                            <a href="">Nước Dưỡng Tóc Tinh Dầu Bưởi Cocoon</a>
+                                        </div>
+                                        <div class="productItemPrice">
+                                            <div class="productItemPriceNew">5,000đ</div>
+                                            <div class="productItemPriceOld">10,000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nextSlide"><i class="fas fa-chevron-right"></i></div>
+                        <div class="backSlide"><i class="fas fa-chevron-left"></i></div>
+                    </div>
+                    <hr>
+                    <!-- New Arrival -->
+                    <div class="wrapperNewProducts ">
+                        <h2>new arrival</h2>
+                        <div class="newArrival">
+                            <div class="s_productItem">
+                                <div class="s_productItemInfo">
+                                    <div class="s_productPhoto">
+                                        <a href=""><img class="product-img" src="./images/p5.jpg" alt=""></a>
+                                        <div class="heartFavorite"><i class="far fa-heart"></i></div>
+                                        <button class="btn btn-info my-view-btn">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="btn btn-success add-to-card">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="s_productDetaillInfo">
+                                        <div class="title">
+                                            <a href="">Nước Dưỡng Tóc Tinh Dầu Bưởi Cocoon</a>
+                                        </div>
+                                        <div class="productItemPrice">
+                                            <div class="productItemPriceNew">5,000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="s_productItem">
+                                <div class="s_productItemInfo">
+                                    <div class="s_productPhoto">
+                                        <a href=""><img class="product-img" src="./images/p6.jpg" alt=""></a>
+                                        <div class="heartFavorite"><i class="far fa-heart"></i></div>
+                                        <button class="btn btn-info my-view-btn">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="btn btn-success add-to-card">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="s_productDetaillInfo">
+                                        <div class="title">
+                                            <a href="">Nước Dưỡng Tóc Tinh Dầu Bưởi Cocoon</a>
+                                        </div>
+                                        <div class="productItemPrice">
+                                            <div class="productItemPriceNew">5,000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="s_productItem">
+                                <div class="s_productItemInfo">
+                                    <div class="s_productPhoto">
+                                        <a href=""><img class="product-img" src="./images/p5.jpg" alt=""></a>
+                                        <div class="heartFavorite"><i class="far fa-heart"></i></div>
+                                        <button class="btn btn-info my-view-btn">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="btn btn-success add-to-card">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="s_productDetaillInfo">
+                                        <div class="title">
+                                            <a href="">Nước Dưỡng Tóc Tinh Dầu Bưởi Cocoon</a>
+                                        </div>
+                                        <div class="productItemPrice">
+                                            <div class="productItemPriceNew">5,000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="s_productItem">
+                                <div class="s_productItemInfo">
+                                    <div class="s_productPhoto">
+                                        <a href=""><img class="product-img" src="./images/p2.jpg" alt=""></a>
+                                        <div class="heartFavorite"><i class="far fa-heart"></i></div>
+                                        <button class="btn btn-info my-view-btn">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="btn btn-success add-to-card">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="s_productDetaillInfo">
+                                        <div class="title">
+                                            <a href="">Nước Dưỡng Tóc Tinh Dầu Bưởi Cocoon</a>
+                                        </div>
+                                        <div class="productItemPrice">
+                                            <div class="productItemPriceNew">5,000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="s_productItem">
+                                <div class="s_productItemInfo">
+                                    <div class="s_productPhoto">
+                                        <a href=""><img class="product-img" src="./images/p3.jpg" alt=""></a>
+                                        <div class="heartFavorite"><i class="far fa-heart"></i></div>
+                                        <button class="btn btn-info my-view-btn">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="btn btn-success add-to-card">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="s_productDetaillInfo">
+                                        <div class="title">
+                                            <a href="">Nước Dưỡng Tóc Tinh Dầu Bưởi Cocoon</a>
+                                        </div>
+                                        <div class="productItemPrice">
+                                            <div class="productItemPriceNew">5,000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="s_productItem">
+                                <div class="s_productItemInfo">
+                                    <div class="s_productPhoto">
+                                        <a href=""><img class="product-img" src="./images/p7.jpg" alt=""></a>
+                                        <div class="heartFavorite"><i class="far fa-heart"></i></div>
+                                        <button class="btn btn-info my-view-btn">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="btn btn-success add-to-card">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="s_productDetaillInfo">
+                                        <div class="title">
+                                            <a href="">Nước Dưỡng Tóc Tinh Dầu Bưởi Cocoon</a>
+                                        </div>
+                                        <div class="productItemPrice">
+                                            <div class="productItemPriceNew">5,000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="s_productItem">
+                                <div class="s_productItemInfo">
+                                    <div class="s_productPhoto">
+                                        <a href=""><img class="product-img" src="./images/p4.jpg" alt=""></a>
+                                        <div class="heartFavorite"><i class="far fa-heart"></i></div>
+                                        <button class="btn btn-info my-view-btn">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="btn btn-success add-to-card">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="s_productDetaillInfo">
+                                        <div class="title">
+                                            <a href="">Nước Dưỡng Tóc Tinh Dầu Bưởi Cocoon</a>
+                                        </div>
+                                        <div class="productItemPrice">
+                                            <div class="productItemPriceNew">5,000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="s_productItem">
+                                <div class="s_productItemInfo">
+                                    <div class="s_productPhoto">
+                                        <a href=""><img class="product-img" src="./images/p2.jpg" alt=""></a>
+                                        <div class="heartFavorite"><i class="far fa-heart"></i></div>
+                                        <button class="btn btn-info my-view-btn">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="btn btn-success add-to-card">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="s_productDetaillInfo">
+                                        <div class="title">
+                                            <a href="">Nước Dưỡng Tóc Tinh Dầu Bưởi Cocoon</a>
+                                        </div>
+                                        <div class="productItemPrice">
+                                            <div class="productItemPriceNew">5,000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="s_productItem">
+                                <div class="s_productItemInfo">
+                                    <div class="s_productPhoto">
+                                        <a href=""><img class="product-img" src="./images/p6.jpg" alt=""></a>
+                                        <div class="heartFavorite"><i class="far fa-heart"></i></div>
+                                        <button class="btn btn-info my-view-btn">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="btn btn-success add-to-card">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="s_productDetaillInfo">
+                                        <div class="title">
+                                            <a href="">Nước Dưỡng Tóc Tinh Dầu Bưởi Cocoon</a>
+                                        </div>
+                                        <div class="productItemPrice">
+                                            <div class="productItemPriceNew">5,000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="s_productItem">
+                                <div class="s_productItemInfo">
+                                    <div class="s_productPhoto">
+                                        <a href=""><img class="product-img" src="./images/p5.jpg" alt=""></a>
+                                        <div class="heartFavorite"><i class="far fa-heart"></i></div>
+                                        <button class="btn btn-info my-view-btn">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="btn btn-success add-to-card">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="s_productDetaillInfo">
+                                        <div class="title">
+                                            <a href="">Nước Dưỡng Tóc Tinh Dầu Bưởi Cocoon</a>
+                                        </div>
+                                        <div class="productItemPrice">
+                                            <div class="productItemPriceNew">5,000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="s_productItem">
+                                <div class="s_productItemInfo">
+                                    <div class="s_productPhoto">
+                                        <a href=""><img class="product-img" src="./images/p2.jpg" alt=""></a>
+                                        <div class="heartFavorite"><i class="far fa-heart"></i></div>
+                                        <button class="btn btn-info my-view-btn">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="btn btn-success add-to-card">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="s_productDetaillInfo">
+                                        <div class="title">
+                                            <a href="">Nước Dưỡng Tóc Tinh Dầu Bưởi Cocoon</a>
+                                        </div>
+                                        <div class="productItemPrice">
+                                            <div class="productItemPriceNew">130,000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="s_productItem">
+                                <div class="s_productItemInfo">
+                                    <div class="s_productPhoto">
+                                        <a href=""><img class="product-img" src="./images/p4.jpg" alt=""></a>
+                                        <div class="heartFavorite"><i class="far fa-heart"></i></div>
+                                        <button class="btn btn-info my-view-btn">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="btn btn-success add-to-card">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="s_productDetaillInfo">
+                                        <div class="title">
+                                            <a href="">Nước Dưỡng Tóc Tinh Dầu Bưởi Cocoon</a>
+                                        </div>
+                                        <div class="productItemPrice">
+                                            <div class="productItemPriceNew">5,000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="s_productItem">
+                                <div class="s_productItemInfo">
+                                    <div class="s_productPhoto">
+                                        <a href=""><img class="product-img" src="./images/p3.jpg" alt=""></a>
+                                        <div class="heartFavorite"><i class="far fa-heart"></i></div>
+                                        <button class="btn btn-info my-view-btn">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="btn btn-success add-to-card">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="s_productDetaillInfo">
+                                        <div class="title">
+                                            <a href="">Nước Dưỡng Tóc Tinh Dầu Bưởi Cocoon</a>
+                                        </div>
+                                        <div class="productItemPrice">
+                                            <div class="productItemPriceNew">5,000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="s_productItem">
+                                <div class="s_productItemInfo">
+                                    <div class="s_productPhoto">
+                                        <a href=""><img class="product-img" src="./images/p2.jpg" alt=""></a>
+                                        <div class="heartFavorite"><i class="far fa-heart"></i></div>
+                                        <button class="btn btn-info my-view-btn">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="btn btn-success add-to-card">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="s_productDetaillInfo">
+                                        <div class="title">
+                                            <a href="">Nước Dưỡng Tóc Tinh Dầu Bưởi Cocoon</a>
+                                        </div>
+                                        <div class="productItemPrice">
+                                            <div class="productItemPriceNew">5,000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="s_productItem">
+                                <div class="s_productItemInfo">
+                                    <div class="s_productPhoto">
+                                        <a href=""><img class="product-img" src="./images/p6.jpg" alt=""></a>
+                                        <div class="heartFavorite"><i class="far fa-heart"></i></div>
+                                        <button class="btn btn-info my-view-btn">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="btn btn-success add-to-card">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="s_productDetaillInfo">
+                                        <div class="title">
+                                            <a href="">Nước Dưỡng Tóc Tinh Dầu Bưởi Cocoon</a>
+                                        </div>
+                                        <div class="productItemPrice">
+                                            <div class="productItemPriceNew">5,000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapperStoreSystem">
+                <hr>
+                <h2>Shop System</h2>
+                <div class="storeSystem">
+                    <div class="storeSystemItem">
+                        <div class="storeItem">
+                            <img src="./images/shopsystemHN.jpg" alt="">
+                            <p>Hà Nội</p>
+                            <a href="">Hồ Hoàn Kiếm, Hàng Trống, Hoàn Kiếm, Hà Nội</a>
+                        </div>
+                    </div>
+                    <div class="storeSystemItem">
+                        <div class="storeItem">
+                            <img src="./images/shopsystemH.jpg" alt="">
+                            <p>Huế</p>
+                            <a href="">Đại Nội, Thuận Thành, Thành phố Huế, Thừa Thiên Huế</a>
+                        </div>
+                    </div>
+                    <div class="storeSystemItem">
+                        <div class="storeItem">
+                            <img src="./images/shopsystemDN.jpg" alt="">
+                            <p>Đà Nẵng</p>
+                            <a href="">Cầu Rồng Đà Nẵng, Sơn Trà, Đà Nẵng</a>
+                        </div>
+                    </div>
+                    <div class="storeSystemItem">
+                        <div class="storeItem">
+                            <img src="./images/shopsystemSG.jpg" alt="">
+                            <p>Sài Gòn</p>
+                            <a href="">Nhà thờ Đức Bà, Công xã Paris, Bến Nghé, Quận 1, Hồ Chí Minh</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Footer-->
+        <div id="web-footer">
+            <footer class="my-footer">
+                <div class="container">
+                    <div class="main-footer">
+                        <div class="col-md-3 customer-service break-word text-center">
+                            <h5 class="customer-service-title" style="text-transform:uppercase; font-weight: bold">
+                                Customer
+                                services</h5>
+                            <a class="customer-service-items" href="">Payment & Shipping</a>
+                            <a class="customer-service-items" href="">Warranty & Returns</a>
+                            <a class="customer-service-items" href="">Our stores</a>
+                        </div>
+                        <div class="col-md-6 newsletter break-word text-center">
+                            <h5 class="newsletter-title" style="text-transform:uppercase; font-weight: bold">Sign up for
+                                our
+                                Newsletter</h5>
+                            <h6>Subscribe to get the latest news and offers from us.</h6>
+                            <div class=" newsletter-form">
+                                <form method="post" action="" accept-charset="UTF-8" class="subscribe-form">
+                                    <input type="text" class="subscribe-input" placeholder="First name">
+                                    <input type="text" class="subscribe-input" placeholder="Email address">
+                                    <input type="submit" class="subscribe-input-submit" value="Subscribe">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-3 my-contact break-word text-center">
+                            <h5 class="my-contact-title" style="text-transform:uppercase; font-weight: bold">Contact us
+                            </h5>
+                            <span>
+                                <h6>
+                                    <i class="fa fa-phone-square" style="margin-right:10px" aria-hidden="true"></i>
+                                    Hotline: 01202414013
+                                </h6>
+
+                                <h6>
+                                    <i class=" fas fa-mail-bulk" style="margin-right:10px"></i>
+                                    supportcustomer@gmail.com
+                                </h6>
+                            </span>
+                        </div>
+                    </div>
+                    <hr style="background:white;">
+                    <div class="text-center" style="width:100%;">
+                        <p>@2019 Copyright by Gruop</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- Button trigger modal -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Shopping Cart</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="cart-item">
+
+                        </div>
+                    </div>
+                    <div class="total-modal">
+                        <h5 class="total-modal-title">Total</h5>
+                        <span class="total-modal-price">0đ</span>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-success">Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of Footer-->
+        <script src="./js/index.js"></script>
+        <script src="./js/slide.js"></script>
+        <script src="./js/menu.js"></script>
+        <script src="./js/slideProduct.js"></script>
+        <script src="./js/scroll.js"></script>
+        <script src="./js/addToCard.js"></script>
+        <script src="./jquery/jquery-3.4.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
